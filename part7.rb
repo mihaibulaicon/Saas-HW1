@@ -12,4 +12,5 @@ end
 
 
 c = CartesianProduct.new([4,5,7],["a","b","c","d"])
+c.count
 c.each { |elt| puts elt.inspect }
